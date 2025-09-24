@@ -395,13 +395,15 @@ p {
   display: flex;
   margin-top: auto;
   flex-direction: column;
-  row-gap: 3rem;
-  width: 30%;
+  row-gap: 2rem;
+  width: 50%;
 }
 
 .early_access_section .early_access_section__right .right__cta {
   color: #f49867;
   border-bottom: 1px solid transparent;
+  width: 45%;
+  margin-bottom: 10%;
 }
 
 .early_access_section .early_access_section__right a:hover {
@@ -418,7 +420,7 @@ p {
   border: 1px solid;
   border-radius: 10px;
   width: 90%;
-  height: 120px;
+  height: 140px;
   background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
   display: flex;
   justify-content: space-between;
@@ -431,6 +433,7 @@ p {
   margin-left: 5%;
   width: 75%;
 }
+
 .early_access_card_upper_header {
   font-size: 12px;
   color: black;
@@ -443,7 +446,7 @@ p {
   background-color: black;
   border: 0px;
   border-radius: 50px;
-  height: 40%;
+  height: 35%;
   width: 15%;
   margin-right: 5%;
 }
