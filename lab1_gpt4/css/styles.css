@@ -360,9 +360,15 @@ p {
   padding: 3rem;
   margin: 6rem 0;
 } */
+ .section_examples{
+  padding-top: 4rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+ }
 .section_examples .blocks{
   height: 900px;
   padding-top: 4rem;
+  
   display: flex;
   flex-direction: row;
   gap: 2rem;
