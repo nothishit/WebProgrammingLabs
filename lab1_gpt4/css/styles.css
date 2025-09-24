@@ -573,3 +573,129 @@ p {
     flex-direction: column;
   }
 }
+
+
+
+/* Пятая часть страницы начинается здесь!!! */
+.fifth_part_page {
+  background-color: #052d56;
+  padding: 3rem 0;
+  margin: 6rem 0 0;
+  max-width: none;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+/* Верхняя часть с кнопкой */
+.tpp_upper_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3rem;
+  max-width: 821px;
+  width: 100%;
+  text-align: center;
+  margin: 6rem auto 4rem auto;
+  padding: 0 2rem;
+}
+
+.tpp_upper_container h1 {
+
+font-size: 62px;
+color: #ae67fa;
+
+  font-size: 50px;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+.tpp_button__Request_btn{
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tpp_button__Request_btn:hover {
+  background-color: #ae67fa;
+  color: #ffffff;
+}
+
+/* Верхняя часть футера с колонками */
+.footer_blocks {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1169px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+}
+
+/* Общие стили для блоков футера */
+.footer_first_block,
+.footer_second_block,
+.footer_third_block,
+.footer_foruth_block {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 2rem;
+}
+
+.footer_heading1 {
+  font-size: 34px;
+  color: #fff;
+  font-family: "ManropeBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.footer_heading2 {
+  font-size: 18px;
+  color: #fff;
+  font-family: "ManropeBold", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.footer_menu {
+  list-style: none;
+  padding: 0;
+}
+
+.footer_menu li {
+  margin-bottom: 0.8rem;
+}
+
+.footer_menu a {
+  color: #cecdcf;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer_menu a:hover {
+  color: #fff;
+}
+
+/* Шестая часть */
+.sixth_part_page {
+  background-color: #000;
+  margin: 0;
+  max-width: none;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.sixth_part {
+  text-align: center;
+}
+
+.footer_sixth p {
+  color: #ffffff; 
+  font-size: 12px;
+}
+
