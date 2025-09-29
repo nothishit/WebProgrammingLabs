@@ -582,51 +582,51 @@ p {
 
 /* Пятая часть страницы начинается здесь!!! */
 .fifth_part_page {
-  background-color: #052d56;
-  padding: 3rem 0;
-  margin: 6rem 0 0;
-  max-width: none;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
+    background-color: #031B34;
+    padding: 3rem 0;
+    margin: 6rem 0 0;
+    max-width: none;
+    width: 100%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
 }
 
 /* Верхняя часть с кнопкой */
-.tpp_upper_container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 3rem;
-  max-width: 821px;
-  width: 100%;
-  text-align: center;
-  margin: 6rem auto 4rem auto;
-  padding: 0 2rem;
+.fpp_upper_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3rem;
+    max-width: 821px;
+    width: 100%;
+    text-align: center;
+    margin: 6rem auto 4rem auto;
+    padding: 0 2rem;
 }
 
-.tpp_upper_container h1 {
+.fpp_upper_container h1 {
+  
+  font-size: 62px;
+  color: #ae67fa;
 
-font-size: 62px;
-color: #ae67fa;
-
-  font-size: 50px;
-  line-height: 1.2;
-  word-wrap: break-word;
+    font-size: 50px;
+    line-height: 1.2;
+    word-wrap: break-word;
 }
 
-.tpp_button__Request_btn{
-  padding: 1rem 2rem;
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
+.fpp_button__Request_btn{
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.tpp_button__Request_btn:hover {
-  background-color: #ae67fa;
-  color: #ffffff;
+.fpp_button__Request_btn:hover {
+    background-color: #ae67fa;
+    color: #ffffff;
 }
 
 /* Верхняя часть футера с колонками */
