@@ -683,15 +683,14 @@ p {
 .footer_menu a:hover {
   color: #fff;
 }
-
 /* Шестая часть */
 .sixth_part_page {
-  background-color: #000;
-  margin: 0;
-  max-width: none;
-  width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
+    background-color: #000;
+    margin: 0;
+    max-width: none;
+    width: 100%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
 }
 
 .sixth_part {
