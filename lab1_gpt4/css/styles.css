@@ -366,17 +366,17 @@ p {
 
 /* Пятая часть страницы начинается здесь!!! */
 .fifth_part_page {
-    background-color: #052d56;
+    background-color: #031B34;
     padding: 3rem 0;
     margin: 6rem 0 0;
     max-width: none;
-    width: 100vw;
+    width: 100%;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
 }
 
 /* Верхняя часть с кнопкой */
-.tpp_upper_container {
+.fpp_upper_container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -388,7 +388,7 @@ p {
     padding: 0 2rem;
 }
 
-.tpp_upper_container h1 {
+.fpp_upper_container h1 {
   
   font-size: 62px;
   color: #ae67fa;
@@ -398,7 +398,7 @@ p {
     word-wrap: break-word;
 }
 
-.tpp_button__Request_btn{
+.fpp_button__Request_btn{
     padding: 1rem 2rem;
     background-color: transparent;
     color: #fff;
@@ -408,7 +408,7 @@ p {
     cursor: pointer;
 }
 
-.tpp_button__Request_btn:hover {
+.fpp_button__Request_btn:hover {
     background-color: #ae67fa;
     color: #ffffff;
 }
@@ -435,14 +435,14 @@ p {
     margin-bottom: 2rem;
 }
 
-.footer_heading1 {
+.footer_heading_first_left {
     font-size: 34px;
     color: #fff;
     font-family: "ManropeBold", sans-serif;
     margin-bottom: 1rem;
 }
 
-.footer_heading2 {
+.footer_heading_other_right {
     font-size: 18px;
     color: #fff;
     font-family: "ManropeBold", sans-serif;
@@ -473,7 +473,7 @@ p {
     background-color: #000;
     margin: 0;
     max-width: none;
-    width: 100vw;
+    width: 100%;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
 }
