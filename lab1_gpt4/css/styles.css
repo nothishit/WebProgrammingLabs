@@ -23,6 +23,7 @@
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
   outline: none;
+  border: 1px solid red;
 }
 
 /* Общие стили для всего приложения */
@@ -445,7 +446,7 @@ p {
   display: flex;
   justify-content: space-between;
   column-gap: 1rem;
-  min-height: 60vh;
+  /* min-height: 60vh; */
   margin: 3rem 0 3rem;
   max-width: 1169px;
 }
@@ -535,8 +536,8 @@ p {
 } */
  .section_examples{
   padding-top: 4rem;
-  padding-left: 9rem;
-  padding-right: 9rem;
+  /* padding-left: 9rem;
+  padding-right: 9rem; */
  }
 .section_examples .blocks{
   height: 900px;
@@ -768,9 +769,31 @@ p {
 
 /* Медиа запросы для адаптива */
 @media screen and (max-width: 2560px) {
+  /* .page{
+
+  } */
   .section{
-    max-width: 90%;
+    max-width: 1920px;
+    /* margin: 0 auto; */
   }
+  .section_examples{
+    max-width: 1920px;
+  }
+  .fifth_part_page{
+    max-width: 1920px;
+  }
+  .what_is_chatgpt_section .what_is_chatgpt_section__middle .middle__header{
+    width: auto;
+  }
+  .what_is_chatgpt_section .what_is_chatgpt_section__middle{
+    display: block;
+  }
+  .what_is_chatgpt_section .what_is_chatgpt_section__middle a{
+    height: 10px;
+  }
+
+  
+
  
   a{
     font-size: 24px;
@@ -798,7 +821,7 @@ p {
     width: 100%;
   }
   .early_access_card_background{
-    max-width: 80%;
+    max-width: 100%;
   }
   .early_access_card_upper_header{
     font-size: 24px;
@@ -843,6 +866,9 @@ p {
 }
 
 @media screen and (max-width: 1440px){
+  .section_examples {
+    padding: 3rem 4rem 0 4rem;
+  }
   .section{
     max-width: 90%;
   }
@@ -872,9 +898,9 @@ p {
   .early_access_section .early_access_section__right{ 
     width: 100%;
   }
-  .early_access_card_background{
+  /* .early_access_card_background{
     max-width: 80%;
-  }
+  } */
   .early_access_card_upper_header{
     font-size: 18px;
   }
@@ -1050,7 +1076,8 @@ p {
     width: 100%;
   }
   .early_access_card_background{
-    max-width: 80%;
+    
+    width: 100%;
   }
   .early_access_card_upper_header{
     font-size: 16px;
@@ -1104,10 +1131,28 @@ p {
     margin: 0;
     padding: 0;
   }
+  .section_examples {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .footer_blocks {
+    padding: 0 3rem;
+    flex-wrap: nowrap;
+  }
 }
 @media screen and (max-width: 768px){
+  footer_blocks{
+    flex-wrap: wrap;
+  }
+  .footer_blocks{
+    flex-wrap: wrap;
+  }
   a {
     font-size: 12px;
+  }
+  .section_examples {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   p {
     font-size: 12px;
@@ -1245,8 +1290,42 @@ p {
 
 }
 @media screen and (max-width: 426px){
+  .section_examples{
+      padding: 2rem 0 0 0;
+  }
   .section{
     max-width: 90%;
+  }
+  /* .section_examples .blocks{
+    gap: 0;
+  } */
+  .section_examples .blocks .left_block_ex{
+    gap: 0;
+  }
+  .container_card{
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  .section_examples .blocks .right_block_ex .left_bl{
+    gap: 0;
+    margin: 0;
+  }
+  .section_examples .blocks .right_block_ex .right_bl{
+    gap: 0;
+    margin: 0;
+  }
+  ul{
+    text-align: center;
+    margin: 0 auto;
+  }
+  .special_header_block{
+    width: 300px;
+  }
+  .footer_heading_first_left{
+    text-align: center;
+  }
+  .footer_heading_other_right{
+    text-align: center;
   }
   .section_examples{
     width: 100% ;
