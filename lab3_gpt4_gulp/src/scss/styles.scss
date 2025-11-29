@@ -740,6 +740,7 @@ p {
   padding-top: 4rem;
   /* padding-left: 9rem;
   padding-right: 9rem; */
+  max-width: 1169px;
  }
 .section_examples .blocks{
   height: 900px;
@@ -751,48 +752,30 @@ p {
 }
 .section_examples .blocks .left_block_ex {
   height: 100%;
-
-  margin: auto;  
+  margin: auto;
   gap: 2rem;
   display: flex;
   align-items: flex-start;
-  flex: 1.3;
 }
 
 .section_examples .blocks .right_block_ex {
   height: 100%;
-
   gap: 2rem;
   margin: auto;  
   display: flex;
-  align-items: flex-start;
-  flex: 2;
-}
-.section_examples .blocks .right_block_ex .left_bl{
-  height: 100%;
-  gap: 2rem;
-
-  margin: auto;  
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
- 
-}
-.section_examples .blocks .right_block_ex .right_bl{
-  height: 100%;
-  gap: 2rem;
-
-  margin: auto;  
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.container_card{
+.section_examples .blocks .left_block_ex .container_card {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.section_examples .blocks .right_block_ex .container_card {
+  display: flex;
+  width: 47%;
 }
 
 .card_header{
@@ -806,7 +789,6 @@ p {
   display: flex;
   flex-direction: column;
   background: rgba(4, 44, 84, 1);
-  
 }
 
 .data_for_card{
@@ -844,17 +826,14 @@ p {
 }
 
 
-
-
 /* Пятая часть страницы начинается здесь!!! */
 .fifth_part_page {
     background-color: #031B34;
-    padding: 3rem 0;
-    margin: 6rem 0 0;
+    padding: 1rem 0 0 0;
+    margin: 0 0 0;
     max-width: none;
     width: 100%;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
+    margin: auto;
 }
 
 /* Верхняя часть с кнопкой */
@@ -908,10 +887,7 @@ p {
 }
 
 /* Общие стили для блоков футера */
-.footer_first_block,
-.footer_second_block,
-.footer_third_block,
-.footer_foruth_block {
+.footer_block {
   flex: 1;
   min-width: 200px;
   margin-bottom: 2rem;
@@ -950,7 +926,7 @@ p {
   color: #fff;
 }
 /* Шестая часть */
-.sixth_part_page {
+.sixth_part {
     background-color: #000;
     margin: 0;
     max-width: none;

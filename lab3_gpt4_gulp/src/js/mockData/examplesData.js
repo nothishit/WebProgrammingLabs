@@ -1,36 +1,33 @@
 export const header = "Многое Происходит, <br/>Мы Об Этом Ведём Блог.";
 
-const examples = [
+const left_examples = [
   {
-    num: 1,
     src: "./assets/img/cards/holl.png",
     alt: "im1",
     data: " Сент 26, 2021 ",
     title: "GPT-3 и Openai - это будущее. Давайте разберёмся, как это?",
-  },
+  }
+];
+const right_examples = [
   {
-    num: 2,
     src: "./assets/img/cards/chell.png",
     alt: "im1",
     data: " Сент 26, 2021 ",
     title: "GPT-3 и Openai - это будущее. Давайте разберёмся, как это?",
   },
   {
-    num: 3,
     src: "./assets/img/cards/10010.png",
     alt: "im1",
     data: " Сент 26, 2021 ",
     title: "GPT-3 и Openai - это будущее. Давайте разберёмся, как это?",
   },
   {
-    num: 4,
     src: "./assets/img/cards/chain.png",
     alt: "im1",
     data: " Сент 26, 2021 ",
     title: "GPT-3 и Openai - это будущее. Давайте разберёмся, как это?",
   },
   {
-    num: 5,
     src: "./assets/img/cards/error.png",
     alt: "im1",
     data: " Сент 26, 2021 ",
@@ -40,5 +37,6 @@ const examples = [
 
 export const examplesData = {
   header,
-  examples,
+  left_examples,
+  right_examples,
 };
