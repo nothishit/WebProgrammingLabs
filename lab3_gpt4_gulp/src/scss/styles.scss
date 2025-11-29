@@ -776,6 +776,7 @@ p {
 .section_examples .blocks .right_block_ex .container_card {
   display: flex;
   width: 47%;
+  flex-direction: column;
 }
 
 .card_header{

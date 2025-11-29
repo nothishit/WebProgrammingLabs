@@ -45,10 +45,10 @@ export const examplesTemplate = ({ header, left_examples, right_examples }) => {
       <div class="blocks">
         <div class="left_block_ex">
           ${leftCardsTemplate}
-        <div>
+        </div>
         <div class="right_block_ex">
           ${rightCardsTemplate}
-        <div>
+        </div>
       </div>
   `;
 
