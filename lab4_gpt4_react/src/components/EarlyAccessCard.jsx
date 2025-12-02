@@ -22,10 +22,10 @@ export const EarlyAccessCard = () => {
     return <>
             <div className="early_access_card_background">
             <div>
-                {<UpperHeader upper_header={earlyAccessCardData.upper_header}/>}
-                {<Header header={earlyAccessCardData.header}/>}
+                <UpperHeader upper_header={earlyAccessCardData.upper_header}/>
+                <Header header={earlyAccessCardData.header}/>
             </div>
-                {<Button title={earlyAccessCardData.btn.title}/>}
+                <Button title={earlyAccessCardData.btn.title}/>
             </div>
           </>;
 };

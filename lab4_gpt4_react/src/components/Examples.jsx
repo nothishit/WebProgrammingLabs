@@ -15,7 +15,7 @@ export const Header = ({header}) => {
             alt={alt}
         />
         <div className="inf_block">
-            <a className="data_for_card"> {data} </a>
+            <a href={href} className="data_for_card"> {data} </a>
             <h3 className="card_header">
                 {title}
             </h3>
@@ -32,7 +32,7 @@ export const Header = ({header}) => {
 export const Examples = () => {
     const resultTemplate = <>
     <div className="special_header_block">
-      {<Header header={examplesData.header}/>}
+      <Header header={examplesData.header}/>
     </div>
 
     <div className="blocks">

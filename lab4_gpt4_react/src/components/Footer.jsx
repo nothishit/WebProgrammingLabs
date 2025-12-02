@@ -26,7 +26,7 @@ export const Header = ({header}) => {
     return <>
             <div className="fifth_part_page">
               <div className="fpp_upper_container">
-                  {<Header header={footerData.header}/>}
+                  <Header header={footerData.header}/>
                   <a href={footerData.href}><button className="fpp_button__Request_btn">Запросить ранний доступ</button></a>
               </div>
     

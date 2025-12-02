@@ -25,12 +25,12 @@ export const MyApps = ({app: { src, alt }}) => {
 export const EarlyAccess = () => {
     return <>
         <div className="early_access_section__left">
-            {<MyApps app={earlyAccessData.my_apps}/>}
+            <MyApps app={earlyAccessData.my_apps}/>
         </div>
         <div className="early_access_section__right">
-            {<BeforeHeader before_header={earlyAccessData.before_header} />}
-            {<Header header={earlyAccessData.header}/>}
-            {<Description description={earlyAccessData.description}/>}
+            <BeforeHeader before_header={earlyAccessData.before_header} />
+            <Header header={earlyAccessData.header}/>
+            <Description description={earlyAccessData.description}/>
         </div>
     </>;
 }
