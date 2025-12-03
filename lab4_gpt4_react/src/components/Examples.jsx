@@ -1,8 +1,10 @@
 import examplesData from "../mockData/examplesData";
 
-export const Header = ({header}) => {
+export const Header = ({header, second_header}) => {
     return <h2 className="special_header">
             {header}
+            <br/>
+            {second_header}
           </h2>;
   };
   
@@ -32,7 +34,7 @@ export const Header = ({header}) => {
 export const Examples = () => {
     const resultTemplate = <>
     <div className="special_header_block">
-      <Header header={examplesData.header}/>
+      <Header header={examplesData.header} second_header={examplesData.second_header}/>
     </div>
 
     <div className="blocks">

@@ -4,7 +4,8 @@ import numsPng from "../assets/img/cards/10010.png";
 import chainPng from "../assets/img/cards/chain.png";
 import errorPng from "../assets/img/cards/error.png";
 
-export const header = "Многое Происходит, Мы Об Этом Ведём Блог.";
+export const header = "Многое Происходит, ";
+export const second_header = "Мы Об Этом Ведём Блог.";
 
 const left_examples = [
   {
@@ -48,6 +49,7 @@ const right_examples = [
 
 export const examplesData = {
   header,
+  second_header,
   left_examples,
   right_examples,
 };

@@ -740,8 +740,6 @@ p {
 } */
  .section_examples{
   padding-top: 4rem;
-  /* padding-left: 9rem;
-  padding-right: 9rem; */
   max-width: 1169px;
  }
 .section_examples .blocks{
@@ -758,9 +756,11 @@ p {
   gap: 2rem;
   display: flex;
   align-items: flex-start;
+  width: 33%;
 }
 
 .section_examples .blocks .right_block_ex {
+  width: 66%;
   height: 100%;
   gap: 2rem;
   margin: auto;  
@@ -782,8 +782,8 @@ p {
 }
 
 .card_header{
-  margin: 1rem;  
-  margin-top: 0rem;  
+  margin: 1rem;
+  margin-top: 0rem;
   column-gap: 3rem;
 }
 
@@ -820,9 +820,6 @@ p {
 }
 .container_card img{
   width: 100%;
-}
-.special_header_block{
-  max-width: 40ch;
 }
 .special_filler{
   flex-grow: 1
@@ -940,6 +937,7 @@ p {
 
 .sixth_part {
   text-align: center;
+  margin: auto;
 }
 
 .footer_sixth p {
@@ -1011,7 +1009,7 @@ p {
     font-size: 32px;
   }
   .early_access_card_background{
-    height: 12vh;
+    height: 140px;
     margin-bottom: 3rem;
   }
   .early_access_card_btn {
@@ -1048,7 +1046,7 @@ p {
 
 @media screen and (max-width: 1440px){
   .section_examples {
-    padding: 3rem 4rem 0 4rem;
+    padding: 3rem 0 ;
   }
   .section{
     max-width: 90%;
@@ -1089,7 +1087,7 @@ p {
     font-size: 24px;
   }
   .early_access_card_background{
-    height: 12vh;
+    height: 140px;
     margin-bottom: 3rem;
   }
   .early_access_card_btn {
@@ -1267,7 +1265,7 @@ p {
     font-size: 18px;
   }
   .early_access_card_background{
-    height: 12vh;
+    height: 140px;
     margin-bottom: 3rem;
   }
   .early_access_card_btn {
