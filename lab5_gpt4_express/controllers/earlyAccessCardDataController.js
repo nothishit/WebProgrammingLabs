@@ -1,8 +1,8 @@
 const isEarlyAccessCardDataValid = require("../validators/isEarlyAccessCardDataValid");
 
 const {
-  getEarlyAccessDataCardModel,
-  postEarlyAccessDataCardModel,
+  getEarlyAccessCardDataModel,
+  postEarlyAccessCardDataModel,
 } = require("../model/files/earlyAccessCardDataModel");
 
 const getEarlyAccessCardData = (req, res, next) => {
