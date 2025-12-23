@@ -1,4 +1,4 @@
-const isEarlyAccessDataValid = require("../validators/isExamplesValid.js");
+const isExamplesDataValid = require("../validators/isExamplesValid.js");
 
 const {
   getExamplesDataModel,
@@ -23,7 +23,7 @@ const postExamplesData = (req, res, next) => {
 
     // валидируем данные
     // если невалидны, то бросит ошибку
-    isEarlyAccessDataValid(data);
+    isExamplesDataValid(data);
 
     // если с данными все ок, тогда пишем в файл через модель файлов
     postExamplesDataModel(JSON.stringify(data));

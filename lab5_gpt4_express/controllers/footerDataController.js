@@ -1,4 +1,4 @@
-const isEarlyAccessDataValid = require("../validators/isFooterDataValid");
+const isFooterDataValid = require("../validators/isFooterDataValid");
 
 const {
   getFooterDataModel,
